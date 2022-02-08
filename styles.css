@@ -94,22 +94,32 @@ main {
     color: #272727;
 }
 
+#tiles {
+    display: flex;
+    gap: 7em;
+}
+
 .project-tile {
     border-style: solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0;
 }
 
 .project-tile-header {
-
+ background-color: #FFE400;
+ width: 100%;
+ flex-grow: 1;
+ 
 }
 
 .project-screenshot {
-
+ max-width: 250px;
 }
 
 .project-tile-link {
-    
+
 }
 
 
