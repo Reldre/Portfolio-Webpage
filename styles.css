@@ -1,0 +1,143 @@
+html {
+    
+}
+
+h1, h2 {
+    font-size: 3em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#navbar {
+    height: 3.3em;
+    width: 100%;
+    display: flex;
+    background-color: #FFE400;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: flex-end;
+    border-bottom: #272727;
+    border: 6px;
+    border-bottom-style: solid;
+    
+    
+}
+
+#nav-list {
+    display: flex;
+    padding-right: 40px;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1.1em;
+    font-size: 1.2em;
+}
+
+a:hover {
+    background-color: #14A76C;
+    text-decoration:none; 
+    cursor:pointer;
+    padding: 1.1em;
+    z-index: 1;
+}
+
+#home-link:hover {
+    background-color: #272727;
+    color: #FFE400;
+}
+
+#contact-link:hover {
+    background-color: #747474;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    color: #FFE400;
+
+}
+
+#projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #14A76C;
+    color: #272727;
+}
+
+.project-tile {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-tile-header {
+
+}
+
+.project-screenshot {
+
+}
+
+.project-tile-link {
+    
+}
+
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #747474;
+    color: #272727;
+}
+
+footer {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF652F;
+    color: #272727;
+    border-bottom: #272727;
+    border: 6px;
+    border-bottom-style: solid;
+    
+}
+
+#repo-link:hover {
+    background-color: #747474;
+    color: #FFE400;
+}
