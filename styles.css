@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Noto+Sans&family=Ubuntu&display=swap');
+
 html {
-    
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 h1, h2 {
@@ -25,7 +27,7 @@ body {
     left: 0;
     justify-content: flex-end;
     border-bottom: #272727;
-    border: 6px;
+    border: 5px;
     border-bottom-style: solid;
     
     
@@ -37,19 +39,18 @@ body {
 
 }
 
-a {
+.nav-link {
     color: inherit;
     text-decoration: none;
     padding: 1.1em;
     font-size: 1.2em;
 }
 
-a:hover {
+.nav-link:hover {
     background-color: #14A76C;
     text-decoration:none; 
     cursor:pointer;
     padding: 1.1em;
-    z-index: 1;
 }
 
 #home-link:hover {
@@ -80,6 +81,7 @@ main {
     justify-content: center;
     background-color: #272727;
     color: #FFE400;
+    flex-direction: column;
 
 }
 
@@ -100,27 +102,29 @@ main {
 }
 
 .project-tile {
-    border-style: solid;
+    /* border-style: solid; */
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
+    padding: 0;
+    
 }
 
 .project-tile-header {
  background-color: #FFE400;
  width: 100%;
- flex-grow: 1;
+ margin: 0;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ text-align: center;
  
 }
 
 .project-screenshot {
- max-width: 250px;
+ max-height: 250px;
+ 
 }
 
-.project-tile-link {
-
-}
 
 
 #contact {
@@ -131,20 +135,40 @@ main {
     justify-content: center;
     flex-direction: column;
     background-color: #747474;
-    color: #272727;
+    color: #FFE400;
 }
+
+#social-media {
+
+}
+
+.social-icon {
+    max-width: 70px;
+    max-height: 70px;
+    margin: 30px;
+}
+
+
 
 footer {
     height: 52px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FF652F;
+    /* background-color: #FF652F; */
+    background-color: #FFE400;
     color: #272727;
     border-bottom: #272727;
     border: 6px;
     border-bottom-style: solid;
-    
+    padding-left: 20px;
+}
+
+#repo-link {
+    color: inherit;
+    text-decoration: none;
+    padding: 1.1em;
+    font-size: 1.2em;
 }
 
 #repo-link:hover {
